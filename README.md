@@ -1,2 +1,2 @@
 # wptutorialsource
-Source code od WordPress tutorial
+Source code for WordPress Tutorial
