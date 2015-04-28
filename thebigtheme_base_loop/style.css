@@ -1,0 +1,49 @@
+/*
+  Theme Name: The Big Theme
+  Theme URI: http://visualizerbd.com/theme/thebigtheme
+  Author: The Big Man
+  Author URI: http://visualizerbd.com/dead_man
+  Description: The Big Theme was developed for WordPress theme development tutorial purpose
+  Tags: multicolor, black, white, one-column, two-column, custom-widget, custom-sidebar, custom-nav-menues
+  Version: 1.0  
+ */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+p{
+	line-height: 1.65em;
+}
+
+a:link, 
+a:visited {
+	color: #0080ff;
+}
+
+/* General Style */
+div.container{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+article.post{
+	border-bottom: 2px dotted #ccc;
+	text-align: justify; 
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+/* Header */
+.site-header{
+	border-bottom: 2px solid #888;
+}
+
+/* Footer */
+.site-footer{
+	border-top: 2px solid #888;
+}
