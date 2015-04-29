@@ -1,0 +1,102 @@
+/*
+  Theme Name: The Big Theme
+  Theme URI: http://visualizerbd.com/theme/thebigtheme
+  Author: The Big Man
+  Author URI: http://visualizerbd.com/dead_man
+  Description: The Big Theme was developed for WordPress theme development tutorial purpose
+  Tags: multicolor, black, white, one-column, two-column, custom-widget, custom-sidebar, custom-nav-menues
+  Version: 1.0  
+ */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+p{
+	line-height: 1.65em;
+}
+
+a:link, 
+a:visited {
+	color: #0080ff;
+	text-decoration: none;
+}
+
+/* General Style */
+div.container{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+article.post{
+	border-bottom: 1px dotted #ccc;
+	text-align: justify; 
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+/* Header */
+.site-header{
+	border-bottom: 1px solid #BBB;
+}
+
+/* Footer */
+.site-footer{
+	border-top: 1px solid #BBB;
+}
+
+/* Navigation Menus */
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after{ clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+/* Site Header Menu */
+.site-header nav ul li {
+	margin-right: 5px;
+	border: 1px solid #BBB;
+	border-bottom: none;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 8px;
+	border-bottom: none;
+	text-decoration: none;
+}
+.site-header nav ul li a:hover{
+	background-color: #efefef;
+}
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background-color: #0080FF;
+	color: #FFF;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+	margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
