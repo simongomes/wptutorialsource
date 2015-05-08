@@ -1,0 +1,244 @@
+/*
+Theme Name: LearningWordPress
+Author: LearnWebCode
+Author URI: http://www.youtube.com/user/LearnWebCode
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+	margin: 0 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: normal;
+}
+
+/* General Layout */
+div.container {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Content Area */
+article.post {
+	border-bottom: 1px dotted #DDD;
+	margin-bottom: 20px;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+.site-header {
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+	padding: 30px 0 0 0;
+}
+
+.site-header h1 {
+	margin: 0;
+}
+
+.site-header h1 a:link,
+.site-header h1 a:visited {
+	text-decoration: none;
+}
+
+.site-header h5 {
+	margin: 0;
+}
+
+/* Standard Nav Menu */
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+	display: block;
+}
+
+/* Header Nav Menu */
+.site-header nav {
+	margin-top: 30px;
+}
+
+.site-header nav ul li {
+	margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	padding: 10px 17px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	border-bottom: none;
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
+	font-weight: bold;
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 1px solid #DDD;
+	font-size: 84%;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+	margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/* Two Column Title Layout */
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/* Info Box Styles */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
+}
+
+/* Children Links */
+.children-links {
+	margin-bottom: 20px;
+	font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+.children-links ul {
+	float: left;
+}
+
+.children-links li {
+	margin-right: 20px;
+}
+
+.children-links .parent-link {
+	float: left;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #DDD;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+	color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+	border-bottom: 1px solid #DDD;
+	color: #333;
+	cursor: default;
+}
+
+/* Post Styles */
+.post h2 {
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
+
+
+
