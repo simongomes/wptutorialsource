@@ -1,12 +1,11 @@
 <?php
-
-function learningWordPress_resources() {
+function add_bigtheme_stylesheet() {
 	
 	wp_enqueue_style('style', get_stylesheet_uri());
 	
 }
 
-add_action('wp_enqueue_scripts', 'learningWordPress_resources');
+add_action('wp_enqueue_scripts', 'add_bigtheme_stylesheet');
 
 // Navigation Menus
 register_nav_menus(array(
