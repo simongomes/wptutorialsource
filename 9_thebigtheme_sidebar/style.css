@@ -1,0 +1,290 @@
+/*
+  Theme Name: The Big Theme
+  Theme URI: http://visualizerbd.com/theme/thebigtheme
+  Author: The Big Man
+  Author URI: http://visualizerbd.com/dead_man
+  Description: The Big Theme was developed for WordPress theme development tutorial purpose
+  Tags: multicolor, black, white, one-column, two-column, custom-widget, custom-sidebar, custom-nav-menues
+  Version: 1.0  
+ */
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+    line-height: 1.65em;
+    margin: 0 0 1em 0;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: normal;
+}
+
+/* General Layout */
+div.container {
+	max-width: 920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.container .wrapper {
+	clear: both;
+	overflow: hidden;
+}
+div.container .main {
+	max-width: 644px;
+	float: left;
+}
+
+/* Header */
+.site-header {
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+	padding: 30px 0 0 0;
+}
+
+.site-header h1 {
+	margin: 0;
+}
+
+.site-header h1 a:link,
+.site-header h1 a:visited {
+	text-decoration: none;
+}
+
+.site-header h5 {
+	margin: 0;
+}
+
+/* Standard Nav Menu */
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+	display: block;
+}
+
+/* Header Nav Menu */
+.site-header nav {
+	margin-top: 30px;
+}
+
+.site-header nav ul li {
+	margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	padding: 10px 17px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	border-bottom: none;
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	font-weight: bold;
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+/* Content Area */
+article.post {
+	border-bottom: 1px dotted #DDD;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+article.post .thumbnail {
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin-right: 15px;
+	max-width: 200px;
+	box-sizing: border-box;
+}
+article.post .thumbnail img, article.post .banner-thumbnail img {
+	border: 1px solid #00Aec3;
+	padding: 5px;
+	background: #efefef;
+	-webkit-transition: all .15s ease-in-out 0s;
+	   -moz-transition: all .15s ease-in-out 0s;
+	    -ms-transition: all .15s ease-in-out 0s;
+	     -o-transition: all .15s ease-in-out 0s;
+	        transition: all .15s ease-in-out 0s;
+}
+article.post .thumbnail:hover img{
+	-ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+article.post .banner-thumbnail {
+	margin: 15px auto;
+}
+
+/*-- Sidebar --*/
+.sidebar {
+	max-width: 235px;
+	min-width: 235px;
+	float: right;
+}
+.sidebar.main-sidebar .widget {
+	padding: 0 0 0;
+	background: #F3EFE0;
+	margin-bottom: 20px;
+	clear: both;
+	overflow: hidden;
+}
+.sidebar.main-sidebar .widget h2 {
+	font-family: 'Arial', sans-serif;
+	margin-bottom: 0px;
+	color: #FFF;
+	padding: 5px 15px;
+	background-color: #3399FF;
+}
+.sidebar.main-sidebar .widget p {
+	padding: 0 15px;
+}
+.sidebar.main-sidebar .widget ul {
+	margin: 0;
+	padding: 0;
+}
+.sidebar.main-sidebar .widget ul li {
+	list-style-type: none;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #00628B;
+}
+.sidebar.main-sidebar .widget ul li:last-of-type {
+	border: none;
+}
+.sidebar.main-sidebar .widget ul li a {
+	-webkit-transition: all .25s ease-in-out 0s;
+	   -moz-transition: all .25s ease-in-out 0s;
+	    -ms-transition: all .25s ease-in-out 0s;
+	     -o-transition: all .25s ease-in-out 0s;
+	        transition: all .25s ease-in-out 0s;
+}
+.sidebar.main-sidebar .widget ul li a:link, .sidebar.main-sidebar .widget ul li a:visited {
+	text-decoration: none;
+	background: #0099CC;
+	color: #FFF;
+	padding: 5px 15px;
+	display: block;
+}
+.sidebar.main-sidebar .widget ul li a:hover {
+	background-color: #00628B;
+	padding-left: 20px;
+}
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 1px solid #DDD;
+	font-size: 84%;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+	margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/* Two Column Title Layout */
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/* Info Box Styles */
+div.info-box {
+	width: 30%;
+	float: right;
+	margin: 0 0 30px 30px;
+	padding: 20px;
+	background-color: #EEE;
+}
+
+div.info-box h4 {
+	margin-bottom: 6px;
+}
+
+div.info-box p {
+	font-size: 85%;
+}
+
+/* Post Styles */
+.post h2 {
+    margin-bottom: 0;
+}
+
+p.post-info {
+    font-size: 87%;
+    color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+    color: #999;
+}
